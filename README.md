@@ -3,6 +3,23 @@ marko
 
 Lightweight Sinatra app template for monk. 
 
+Features
+========
+
+Kube CSS framework
+Slim view templates
+Modular style application
+Cucumber BDD
+Sequel
+Webrat
+Sinatra partials
+
+Licence
+=======
+
+It is licensed under the WTFPL license.
+https://en.wikipedia.org/wiki/WTFPL
+
 Installation
 ============
 ```sh
