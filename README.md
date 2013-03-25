@@ -6,13 +6,13 @@ Lightweight Sinatra app template for monk.
 Features
 ========
 
-- Kube CSS framework
-- Slim view templates
+- Kube CSS framework http://imperavi.com/kube/
+- Slim view templates http://slim-lang.com/
 - Modular style application
-- Cucumber BDD
-- Sequel
-- Webrat
-- Sinatra partials
+- Cucumber BDD http://cukes.info/
+- Sequel http://sequel.rubyforge.org/
+- Webrat https://github.com/brynary/webrat
+- Sinatra partials https://github.com/yb66/Sinatra-Partial
 
 Licence
 =======
