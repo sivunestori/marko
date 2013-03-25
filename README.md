@@ -1,14 +1,14 @@
 marko
 =====
 
-Lightweight Sinatra app template for monk. 
+Lightweight Sinatra app template for Monk (http://monkrb.com/).
 
 Features
 ========
 
+- Modular style Sinatra application http://www.sinatrarb.com/
 - Kube CSS framework http://imperavi.com/kube/
 - Slim view templates http://slim-lang.com/
-- Modular style application
 - Cucumber BDD http://cukes.info/
 - Sequel http://sequel.rubyforge.org/
 - Webrat https://github.com/brynary/webrat
