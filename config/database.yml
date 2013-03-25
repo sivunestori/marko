@@ -1,0 +1,12 @@
+production:
+  adapter: mysql2
+  database: funky_prod_db
+  username: root
+  password: 
+  host: localhost
+development:
+  adapter: sqlite
+  database: db/my_database.sqlite3
+test:
+  adapter: sqlite
+  database: ":memory:"

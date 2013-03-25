@@ -1,0 +1,51 @@
+div.row
+  article.third
+    h2 What is this
+    p
+      ' This is a 
+      a href="http://monkrb.com/" Monk
+      '  template for a 
+      a href="http://www.sinatrarb.com/" Sinatra application
+      '  with these features
+    ul
+      li
+        a href="http://imperavi.com/kube/" Kube CSS framework
+      li
+        a href="http://slim-lang.com/" Slim view templates
+      li Modular style application
+      li
+        a href="http://cukes.info/" Cucumber BDD
+      li
+        a href="http://sequel.rubyforge.org/" Sequel
+      li
+        a href="https://github.com/brynary/webrat" Webrat
+      li
+        a href="https://github.com/yb66/Sinatra-Partial" Sinatra partials
+  article.third
+    h2 License
+    p
+      ' It is licensed under the 
+      a href="https://en.wikipedia.org/wiki/WTFPL" WTFPL
+      '  license
+    h2 Installation
+    p
+      ' First install 
+      a href="" Monk.
+      '  Then do these lines
+    code monk add marko https://github.com/sivunestori/marko.git
+    code monk init -s marko your_app
+    code cd your_app && bundle
+    code bundle exec thin start -p 3000
+  article.third
+    h2 Motives
+    p I wanted something that is
+    ul
+      li Lightweight
+      li Modular
+      li Unobtrusive
+      li Fast to develop on
+    p And has
+    ul
+      li Slim templates
+      li Responsive layout
+      li Full testing capabilities
