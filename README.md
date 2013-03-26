@@ -38,10 +38,14 @@ Then open up http://localhost:3000/ in your browser.
 
 Running UI/IT tests
 ===================
+```sh
 bundle exec cucumber features/home.feature
+```
 
 Running other tests
 ===================
+```sh
 bundle exec rake test
+```
 
 Minitest is configured to use specs, because they are more readable.
