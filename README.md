@@ -2,6 +2,8 @@ marko
 =====
 
 Lightweight Sinatra app template for Monk (http://monkrb.com/).
+It is a mixture of Monk's riblits template git://github.com/Phrogz/riblits.git and
+http://snippets.aktagon.com/snippets/568-Sinatra-App-Template
 
 Features
 ========
