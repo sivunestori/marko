@@ -7,7 +7,7 @@ end
 
 describe User do
   # replace with sane tests
-  it "should have a username" do
+  it "should say hai" do
     user = User.new
     assert user.hai == "hai"
   end
