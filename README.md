@@ -14,6 +14,10 @@ Features
 - Webrat https://github.com/brynary/webrat
 - Sinatra partials https://github.com/yb66/Sinatra-Partial
 
+Screenshot
+==========
+![Screenshot](screenshot.png "Screenshot")
+
 Licence
 =======
 
