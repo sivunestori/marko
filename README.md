@@ -35,3 +35,11 @@ cd your_app && bundle
 bundle exec thin start -p 3000
 ```
 Then open up http://localhost:3000/ in your browser.
+
+Running UI/IT tests
+===================
+bundle exec cucumber features/home.feature
+
+Running other tests
+===================
+bundle exec rake test

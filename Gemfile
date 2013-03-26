@@ -1,7 +1,6 @@
 source :rubygems
 gem 'thin'
 gem 'slim'
-gem 'sass'
 gem 'sinatra'
 gem 'sinatra-partial'
 gem 'sprockets'
@@ -13,8 +12,9 @@ gem 'awesome_print'
 gem 'sequel'
 group :test do
   gem 'webrat'
-  gem 'rspec-expectations'
-  gem 'cucumber'
+  gem 'cucumber' # good for ui/it
+  gem 'minitest' # good for other tests
+  gem 'rspec' # required by cucumber
 end
 group :test, :development do
   gem 'sqlite3'
