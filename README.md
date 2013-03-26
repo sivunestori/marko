@@ -44,9 +44,10 @@ bundle exec cucumber features/home.feature
 
 Running other tests
 ===================
-Other tests are located in test/controllers and test/models.
+Other tests are located in test/controllers and test/models.  Minitest
+is configured to use specs, because in my opinion they are more
+readable.
 ```sh
 bundle exec rake test
 ```
 
-Minitest is configured to use specs, because they are more readable.
