@@ -43,3 +43,5 @@ bundle exec cucumber features/home.feature
 Running other tests
 ===================
 bundle exec rake test
+
+Minitest is configured to use specs, because they are more readable.
