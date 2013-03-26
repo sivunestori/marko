@@ -44,6 +44,7 @@ bundle exec cucumber features/home.feature
 
 Running other tests
 ===================
+Other tests are located in test/controllers and test/models.
 ```sh
 bundle exec rake test
 ```
