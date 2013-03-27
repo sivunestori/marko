@@ -9,6 +9,6 @@ describe User do
   # replace with sane tests
   it "should say hai" do
     user = User.new
-    assert user.hai == "hai"
+    assert user.hai == "hax"
   end
 end
