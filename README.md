@@ -11,7 +11,8 @@ Features
 - Modular style Sinatra application http://www.sinatrarb.com/
 - Kube CSS framework http://imperavi.com/kube/
 - Slim view templates http://slim-lang.com/
-- Cucumber BDD http://cukes.info/
+- Cucumber BDD for UI/IT/acceptance tests http://cukes.info/
+- Minitest for other tests http://cukes.info/
 - Sequel http://sequel.rubyforge.org/
 - Webrat https://github.com/brynary/webrat
 - Sinatra partials https://github.com/yb66/Sinatra-Partial
