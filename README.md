@@ -54,3 +54,17 @@ readable than unit tests.
 bundle exec rake test
 ```
 
+Continuous testing
+==================
+Requires the watchr gem (gem install watchr) and optionally notify-send
+(apt-get install notify-osd). Unless your setup uses notify-send you
+should modify test/test.watchr to match your setup.
+```sh
+watchr test/test.watchr
+```
+
+Starting the web server
+=======================
+```sh
+bundle exec thin start -p 3000
+```
