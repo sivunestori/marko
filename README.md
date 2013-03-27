@@ -49,7 +49,7 @@ Running other tests
 ===================
 Other tests are located in test/controllers and test/models.  Minitest
 is configured to use specs, because in my opinion they are more
-readable.
+readable than unit tests.
 ```sh
 bundle exec rake test
 ```
