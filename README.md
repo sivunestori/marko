@@ -39,8 +39,8 @@ Then open up http://localhost:3000/ in your browser. Or you can just do
 a git clone instead of using Monk. I'm not yet familiar enough with Monk
 to say what value it adds to this template.
 
-Running UI/IT tests
-===================
+Running UI/IT/acceptance tests
+==============================
 ```sh
 bundle exec cucumber features/home.feature
 ```
