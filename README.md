@@ -3,7 +3,14 @@ marko
 
 Lightweight Sinatra app template for Monk (http://monkrb.com/).
 It is a mixture of Monk's riblits template git://github.com/Phrogz/riblits.git and
-http://snippets.aktagon.com/snippets/568-Sinatra-App-Template
+http://snippets.aktagon.com/snippets/568-Sinatra-App-Template.
+Especially the latter is what this project wants to achieve as an
+out-of-the-box version.
+
+Note
+====
+This is not stable at this moment. Only the master branch is currently
+in use.
 
 Features
 ========
@@ -13,10 +20,19 @@ Features
 - Slim view templates http://slim-lang.com/
 - Cucumber BDD for UI/IT/acceptance tests http://cukes.info/
 - Minitest for other tests http://cukes.info/
-- Sequel http://sequel.rubyforge.org/
+- Sequel for ORM http://sequel.rubyforge.org/
 - Webrat https://github.com/brynary/webrat
 - Sinatra partials https://github.com/yb66/Sinatra-Partial
 - Watchr for continuous testing https://github.com/mynyml/watchr
+
+TODO
+====
+
+ - SASS for CSS files http://sass-lang.com/
+ - Sprockets for packaging assets
+   https://github.com/sstephenson/sprockets
+ - Coffeescript for Javascripts http://coffeescript.org/
+ - Pry for debugging http://pryrepl.org/
 
 Screenshot
 ==========
