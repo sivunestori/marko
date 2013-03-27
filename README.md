@@ -11,7 +11,8 @@ Features
 - Modular style Sinatra application http://www.sinatrarb.com/
 - Kube CSS framework http://imperavi.com/kube/
 - Slim view templates http://slim-lang.com/
-- Cucumber BDD http://cukes.info/
+- Cucumber BDD for UI/IT/acceptance tests http://cukes.info/
+- Minitest for other tests http://cukes.info/
 - Sequel http://sequel.rubyforge.org/
 - Webrat https://github.com/brynary/webrat
 - Sinatra partials https://github.com/yb66/Sinatra-Partial
@@ -34,7 +35,9 @@ monk init -s marko your_app
 cd your_app && bundle
 bundle exec thin start -p 3000
 ```
-Then open up http://localhost:3000/ in your browser.
+Then open up http://localhost:3000/ in your browser. Or you can just do
+a git clone instead of using Monk. I'm not yet familiar enough with Monk
+to say what value it adds to this template.
 
 Running UI/IT tests
 ===================
