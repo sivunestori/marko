@@ -16,6 +16,7 @@ Features
 - Sequel http://sequel.rubyforge.org/
 - Webrat https://github.com/brynary/webrat
 - Sinatra partials https://github.com/yb66/Sinatra-Partial
+- Watchr for continuous testing https://github.com/mynyml/watchr
 
 Screenshot
 ==========
