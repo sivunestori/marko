@@ -3,6 +3,7 @@ require 'sinatra/base'
 require 'sinatra/partial'
 require 'slim'
 require 'sequel'
+require 'yaml'
 
 require_relative 'minify_resources'
 class App < Sinatra::Base
