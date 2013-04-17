@@ -1,6 +1,7 @@
 # encoding: utf-8
 require 'sinatra/base'
 require 'sinatra/partial'
+require 'sinatra/reloader'
 require 'slim'
 require 'sequel'
 require 'yaml'
@@ -10,6 +11,10 @@ class App < Sinatra::Base
   register Sinatra::Partial
 	enable :logging
   use Rack::Session::Cookie
+  configure :development do
+    register Sinatra::Reloader
+  end
+
 
   DB = Sequel.connect(YAML::load(File.open('config/database.yml'))[App.environment.to_s])
 
